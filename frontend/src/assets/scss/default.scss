@@ -2,6 +2,7 @@
 
 body, html, #root {
     height: 100%;
+    color: white  !important;
 }
 #root {
     display: flex;
@@ -12,9 +13,6 @@ body {
     color: white;
     background-color: #1b262c;
 }
-// header {
-//     position: fixed;
-// }
 
 footer{
     
@@ -40,26 +38,32 @@ footer{
 }
 
 .sheet-img {
+    min-width: 75px;
+    min-height: 75px;
     height: 75px;
     width: 75px;
+    margin-left: 10px;
 }
 
 .topbar {
     position: sticky;
     top: 0;
+    overflow: hidden;
+    z-index: 10000000000000000000000000;
 }
 
 .boxbox {
-    border-radius: 2px;
     background-color: darkcyan;
-    margin: 0;
-    overflow: hidden;
+
 }
 
-@media (min-width: 768px) {
-    .collapse.dont-collapse-sm {
-      display: block;
-      height: auto !important;
-      visibility: visible;
-    }
-  }
+caption {
+    caption-side: top;
+    text-align: center;
+    color: white;
+}
+
+
+
+    
+
