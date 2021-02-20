@@ -51,7 +51,15 @@ footer{
 
 .boxbox {
     border-radius: 2px;
-    background-color: yellow;
+    background-color: darkcyan;
     margin: 0;
     overflow: hidden;
 }
+
+@media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+  }

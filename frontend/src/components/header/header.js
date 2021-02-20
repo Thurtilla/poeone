@@ -11,7 +11,7 @@ export default function Header(props) {
       <Navbar.Brand as={Link} to="/">PoE AIO</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto ml-2 justify-content-center">
+        <Nav className="justify-content-center">
         <Nav.Link>
             Sheets
           </Nav.Link>
