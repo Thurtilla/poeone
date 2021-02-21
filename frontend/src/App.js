@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-d
 //Pages
 import Home from './components/pages/home/home'
 import Topbar from './components/pages/sheets/topbar/Topbar';
+import Delve from './components/pages/sheets/delve/Delve';
 
 
 
@@ -21,7 +22,13 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={() => <Topbar />} />
+          <Route path="/sheets/delve" render={() => (
+          <>
+          <Topbar />
+          <Delve />
+          </>
+          )}
+          />
         </Switch>
         <Footer />
       </Router>
