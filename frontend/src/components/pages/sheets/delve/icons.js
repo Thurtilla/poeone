@@ -1,0 +1,1 @@
+import aberrant_icon from '../delve/img/fossils/metallic_icon.png'

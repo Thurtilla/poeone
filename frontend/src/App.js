@@ -22,7 +22,7 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/sheets/delve" render={() => (
+          <Route exact path="/sheets/delve" render={() => (
           <>
           <Topbar />
           <Delve />
