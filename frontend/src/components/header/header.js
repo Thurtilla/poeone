@@ -12,7 +12,7 @@ export default function Header(props) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-center">
-        <Nav.Link>
+        <Nav.Link as={Link} to='sheets/delve' >
             Sheets
           </Nav.Link>
           <Nav.Link>
