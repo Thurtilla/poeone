@@ -12,7 +12,7 @@ export class Biome {
       <Table bordered hover variant="dark">
         <thead>
           <tr key={this.name}>
-            <th className="text-center">{this.name}</th>
+            <th className="biome-title text-center">{this.name}</th>
           </tr>
         </thead>
         <tbody>
